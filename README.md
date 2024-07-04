@@ -11,6 +11,7 @@ To use this script, follow these steps:
 3. Configure the script by modifying the `config.py` file. Provide your AWS access key, secret key, and the name of the S3 bucket you want to check.
 4. Run the script using the command `python s3consistency.py`.
 5. The script will analyze the files in the specified S3 bucket and display the consistency status for each file.
+6. The --endpoint defaults to a specific address that you might need to change if you are testing against your local s3 or the AWS S3
 
 ## Important Notes
 
